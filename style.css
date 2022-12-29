@@ -1,0 +1,29 @@
+div {
+    margin: 10px;
+    height: 90%;
+    border-radius: 25px;
+}
+.e {
+    width: 47%;
+    display: inline-block;
+}
+.a{
+    background-color: #26547C;
+}
+.b{
+    background-color: #EF476F;
+}
+.c{
+    background-color: #FFD166;
+}
+.d{
+    background-color: #06D6A0;
+}
+@media screen and (max-width: 500px) {
+    .b {
+        width: 70%;
+    }
+}
+body{
+    display:grid;
+}
